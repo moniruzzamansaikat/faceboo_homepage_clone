@@ -1,0 +1,52 @@
+* {
+  marign: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left h2{
+  display: none;
+}
+
+footer.desktop {
+  display: none;
+}
+
+/* Utility */
+.d-none {
+  display: none;
+}
+
+/* Style logo */
+.left {
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+/* Design form */
+form {
+  padding: 10px;
+}
+
+form input {
+  box-shadow: 1px 2px 2px gray;
+}
+
+form input, form button{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin: 3px 0;
+  outline: none;
+  border-radius: 2px;
+  background-color: #e6e6e6;
+}
+
+form button {
+  background: #1c79f2;
+  color: #fff;
+  font-weight: 600;
+}
